@@ -92,6 +92,7 @@ public class YourTurnView : MonoBehaviour
 
     } 
 
+    // This method sets up the initial position and vaules of the gameobjects
     void InitAnimeSetUp()
     {
         _backgroundRectTransform.DOAnchorPos(_rightPos, 0);
@@ -108,6 +109,7 @@ public class YourTurnView : MonoBehaviour
         _fadedMsgTmp.DOFade(_fadeTextAplhaMax, 0);
     }
 
+    // This method animates the text entering the screen
     public void AnimateIn()
     {
 
@@ -130,6 +132,7 @@ public class YourTurnView : MonoBehaviour
 
     }
 
+    // This method animates the text exiting the screen
     void AnimateOut()
     {
         Sequence tweenSeq = DOTween.Sequence();

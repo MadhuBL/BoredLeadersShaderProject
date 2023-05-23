@@ -15,6 +15,7 @@ public class EventCaller : MonoBehaviour
         {
             EventManager.battleBeginsTextAnimEventCaller();
             EventManager.YourTurnTextAnimEventCaller();
+            EventManager.CastleRaidedTextAnimEventCaller();
         }
     }
 }
