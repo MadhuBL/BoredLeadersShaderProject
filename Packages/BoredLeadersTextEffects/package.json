@@ -1,0 +1,15 @@
+{
+  "name": "com.boredleaders.text-effects",
+  "version": "1.0.0",
+  "displayName": "BoredLeaders Text Effects",
+  "description": "Text message animation effects",
+  "unity": "2020.3",
+  "keywords": [
+    "boredleaders",
+    "Text Animation",
+    "Text Effects"
+  ],
+  "author": {
+    "name": "BoredLeaders"
+  }
+}
